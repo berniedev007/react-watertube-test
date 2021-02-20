@@ -14,7 +14,7 @@ function App() {
   let timer;
 
   const containerStyles = {
-    height: 200,
+    height: 100,
     width: '100%',
     backgroundColor: "#e0e0de",
     borderRadius: 50,
