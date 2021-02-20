@@ -1,13 +1,10 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import './App.css';
 
-//let level = 0;
 
 function App() {
   const bgcolor = 'blue';
-  const completed = 20;
 
-  
   const [direction, setDirection] = useState(0);
   const [level, setLevel] = useState(0);
 
@@ -68,8 +65,6 @@ function App() {
       val = 5;
     setLevel(val);
   }
-
-  console.log('level', level)
 
   return (
     <>
