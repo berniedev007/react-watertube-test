@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 
 
@@ -57,7 +57,6 @@ function App() {
   }
 
   const updateLevel = () => {
-    console.log(level, direction);
     let val = level + direction;
     if(val < 0)
       val = 0;
