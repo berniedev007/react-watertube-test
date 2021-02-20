@@ -46,7 +46,7 @@ function App() {
   useEffect(() => {
     timer = setTimeout(() => {
       updateLevel();
-    }, 1000);
+    }, 2000);
   });
 
   const onClickIncrease = () => {
